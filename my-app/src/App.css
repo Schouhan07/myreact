@@ -1,0 +1,67 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Anton", sans-serif;
+}
+.container{
+  background-color: cornsilk;
+  width:70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax;
+  box-sizing: border-box;
+}
+nav{
+  background-color: violet;
+  color: aliceblue;
+  padding: 10px;
+  text-align: center;
+}
+.header{
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(0,0,0,blue);
+}
+.container > form{
+  display: flex;
+ flex-direction: column;
+}
+.container > form >input,textarea,button{
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 7px;
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+.task{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.task > div{
+  width:100%;
+}
+.task > button{
+  border-radius: 100%;
+  width:30px;
+  height:30px;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  background-color: violet;
+  justify-content: center;
+
+}
+.task span{
+  color: rgba(0, 0, 0, 0.423);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Foldit:wght@200&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap')
